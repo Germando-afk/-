@@ -1,0 +1,127 @@
+body{
+	background: #FFFFFF;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+	margin: 0;
+	color: #FFFFFF;
+}
+
+h2 {
+    color: #51006E;
+}
+
+h3 {
+    margin: 0% 0% -2% -5%;
+}
+
+h4 {
+    font-size: xx-large;
+    margin: 3% 0% -2% 0%;
+    color: #000080;
+}
+
+header { color: white; background: #DCDCDC}
+
+p { font-size: large; margin: 8px 0px;}
+
+.img>img { text-align: right; border: 1px solid #696969}
+
+.small>p { font-size: smaller; margin: 6px 5px 3px;}
+
+.tabs { width: 100%; padding: 0px; margin: 0 auto; text-align: center;}
+.tabs>input { display: none; }
+.tabs>div {
+    display: none;
+    padding: 12px;
+    border: 1px solid #696969;
+    border-radius: 7px;
+    background: #DCDCDC;
+    margin: 0% 5%;
+    text-align: left;
+}
+.tabs>label {
+    display: inline-block;
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #5E5E5E;
+    border: 1px solid #696969;
+    border-radius: 7px;
+    background: #8C8C8C;
+    cursor: pointer;
+    font-size: x-large;
+}
+.tabs>input:checked + label {
+    color: #000000;
+    border: 1px solid #696969;
+    border-radius: 7px;
+    border-bottom: 1px solid #DCDCDC;
+    background: #DCDCDC;
+}
+#tab_1:checked ~ #txt_1,
+#tab_2:checked ~ #txt_2,
+#tab_3:checked ~ #txt_3,
+#tab_4:checked ~ #txt_4 { display: block; }
+
+.text1 {
+	border: 3px solid #DCDCDC;
+	border-radius: 5%;
+    padding: 7px;
+    margin: 2% 9%;
+    color: #FFFFFF;
+    background: #000080;
+    font-family: FreeMono, monospace;
+}
+
+.text2 {
+    border: 3px solid #000080;
+    border-radius: 28px;
+    padding: 0.5% 1.5%;
+    margin: 2% 6%;
+    color: #FFFFFF;
+    background: #000080;
+    font-family: FreeMono, monospace;
+}
+
+.top1 {
+    background: #51006E;
+    padding: 2% 0%;
+}
+
+.top2 {
+    border-top: 14px solid #DCDCDC;
+    border-bottom: 14px solid #DCDCDC;
+    border-radius: 30px;
+    background: #DCDCDC;
+    margin: 0% 40%;
+}
+
+.top2>a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.top2>a:hover {
+    color: #000080;
+    text-decoration: underline;
+}
+
+footer>ul {
+    margin: 0% 63% 4% 11%;
+    padding: 1.5% 1% 1.5% 3%;
+    border: none;
+    border-radius: 0%;
+    background: #DCDCDC;
+}
+
+footer>li>a {
+    color: #000080;
+    text-decoration: none;
+}
+
+footer>li>a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
